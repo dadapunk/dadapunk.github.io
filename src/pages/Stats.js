@@ -1,0 +1,27 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+import Main from '../layouts/Main';
+
+import Personal from '../components/Stats/Personal';
+import Strava from '../components/Stats/Strava';
+
+
+const Stats = () => (
+  <Main
+    title="Stats"
+    description="Some statistics about Sebastián Velásquez and sebastian-velasquez.dev"
+  >
+    <article className="post" id="stats">
+      <header>
+        <div className="title">
+          <h2 data-testid="heading"><Link to="/stats">Stats</Link></h2>
+        </div>
+      </header>
+      <Personal />
+      {/* <Strava /> */}
+    </article>
+  </Main>
+);
+
+export default Stats;
