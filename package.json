@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dadapunk/personal-site.git"
+    "url": "https://github.com/dadapunk/dadapunk.github.io"
   },
   "scripts": {
     "build": "DISABLE_ESLINT_PLUGIN=true rimraf ./build && react-scripts build",

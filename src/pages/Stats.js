@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Personal from '../components/Stats/Personal';
-import Strava from '../components/Stats/Strava';
+
 
 
 const Stats = () => (
@@ -19,7 +19,6 @@ const Stats = () => (
         </div>
       </header>
       <Personal />
-      {/* <Strava /> */}
     </article>
   </Main>
 );
