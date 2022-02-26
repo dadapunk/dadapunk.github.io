@@ -9,7 +9,7 @@ const skills = [
   },
   {
     title: 'Java',
-    competency: 4,
+    competency: 3,
     category: ['Web Development', 'Languages', 'Java'],
   },
   {
