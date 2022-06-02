@@ -11,7 +11,7 @@ I am studying German, React.js, Flutter and improving my cooking skills.
 
 - Biking
 - Playing drums
-- Running
+- Jogging
 - Cooking
 - Permaculture
 - Photography
