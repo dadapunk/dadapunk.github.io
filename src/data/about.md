@@ -19,6 +19,7 @@ I am studying German, React.js, Flutter and improving my cooking skills.
 
 # I dream of
 
-- enabling a brighter future.
-- doing better.
+- Doing better.
+- Enabling a brighter future.
+- Grow a forest.
 
