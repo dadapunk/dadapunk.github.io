@@ -6,7 +6,7 @@ const data = [
     link: 'https://neuro-transmisor.bandcamp.com/album/radier',
     image: '/images/projects/ptfl_sv_52.png',
     date: 'Sept 2012',
-    desc: 'free rock latin album mixed and masterized by myself.',
+    desc: 'free rock latin album performed (drums), mixed and masterized by myself.',
   },
   {
     title: 'Efecto Caracola',
