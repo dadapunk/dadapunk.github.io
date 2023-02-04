@@ -10,7 +10,7 @@ const skills = [
   {
     title: 'Java',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Java'],
+    category: ['Web Development', 'Framework', 'Java'],
   },
   {
     title: 'SpringBoot',
