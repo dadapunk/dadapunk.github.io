@@ -29,6 +29,7 @@
     "@fortawesome/react-fontawesome": "0.1.14",
     "core-js": "^3.22.8",
     "dayjs": "^1.10.4",
+    "openssl": "^2.0.0",
     "prop-types": "^15.7.2",
     "raw.macro": "^0.4.2",
     "react": "^17.0.1",
@@ -38,8 +39,8 @@
     "react-helmet-async": "^1.0.7",
     "react-markdown": "^5.0.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.1",
-    "react-snap": "^1.23.0",
+    "react-scripts": "^5.0.1",
+    "react-snap": "^1.13.1",
     "rimraf": "^3.0.2",
     "sass": "^1.49.0",
     "swr": "^1.2.1"
