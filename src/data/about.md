@@ -1,11 +1,11 @@
 
 # Intro
 
-Sebastian lives with his partner, a translator and proofreader, and her cat. Before moving to Berlin, he enjoyed playing drums with a band and riding a road bike in Santiago, Chile. Now he enjoys good food, beer and running.
+Sebastian lives with his partner, a translator and proofreader, and her cat. Before moving to Girona, he enjoyed playing drums with a band and riding a road bike in Santiago, Chile. Now he enjoys good food, beer and running.
 
 # Currently
 
-I am studying German, React.js, Flutter and improving my cooking skills.
+I am studying Catalan, SpringBoot, Flutter and improving my cooking skills.
 
 # I like
 
