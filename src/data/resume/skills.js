@@ -4,11 +4,16 @@
 const skills = [
   {
     title: 'Javascript',
-    competency: 3,
+    competency: 2,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'Java',
+    competency: 4,
+    category: ['Web Development', 'Languages', 'Java'],
+  },
+  {
+    title: 'SpringBoot',
     competency: 3,
     category: ['Web Development', 'Languages', 'Java'],
   },
@@ -34,7 +39,7 @@ const skills = [
   },
   {
     title: 'MongoDB',
-    competency: 3,
+    competency: 2,
     category: ['Web Development', 'Databases'],
   },
   {
