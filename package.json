@@ -8,7 +8,7 @@
     "url": "https://github.com/dadapunk/dadapunk.github.io"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": ">=16.x"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
