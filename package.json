@@ -1,7 +1,7 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://www.sebastian-velasquez.dev/",
+  "homepage": "https://www.sebastian-velasquez.dev",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -12,10 +12,9 @@
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
-    "predeploy": "npm run build && react-snap",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
-    "lint": "eslint $(git ls-files '*.js')",
     "test": "react-scripts test --watchAll=false",
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js"
   },

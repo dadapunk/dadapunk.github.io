@@ -15,14 +15,14 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v3
       with:
-        node-version-file: '.nvmrc'
+        node-version-file:  [16.x]
     - name: Install
       run: npm ci
     - name: Build and Deploy
       env:
         NODE_ENV: production
         # Remove this line if you would like to skip using google analytics
-        REACT_APP_GA_TRACKING_ID: UA-68649021-1
+        #REACT_APP_GA_TRACKING_ID: UA-68649021-1
         # This is set automatically by github
         GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
       run: |
