@@ -11,8 +11,8 @@ I am studying Catalan, SpringBoot, Flutter and improving my cooking skills.
 
 - Biking
 - Playing drums
-- Jogging
 - Cooking
+- Jogging
 - Permaculture
 - Photography
 - DIY projects
