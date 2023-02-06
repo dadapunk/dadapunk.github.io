@@ -9,28 +9,28 @@ const skills = [
   },
   {
     title: 'Java',
-    competency: 4,
-    category: ['Web Development', 'Framework', 'Java'],
+    competency: 3,
+    category: ['BackEnd', 'Languages', 'Java'],
   },
   {
     title: 'SpringBoot',
     competency: 3,
-    category: ['Web Development', 'Languages', 'Java'],
+    category: ['BackEnd', 'Framework', 'Java'],
   },
   {
     title: 'Docker',
     competency: 3,
-    category: ['Tools'],
+    category: ['DevOps'],
   },
   {
     title: 'Node.JS',
     competency: 2,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Javascript', 'BackEnd'],
   },
   {
     title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
+    competency: 2,
+    category: ['Web Development', 'Javascript', 'FrontEnd'],
   },
   {
     title: 'Bash',
@@ -39,7 +39,7 @@ const skills = [
   },
   {
     title: 'MongoDB',
-    competency: 2,
+    competency: 1,
     category: ['Web Development', 'Databases'],
   },
   {
@@ -75,7 +75,7 @@ const skills = [
   {
     title: 'Python',
     competency: 2,
-    category: ['Languages', 'Python'],
+    category: ['Languages', 'Python', 'BackEnd'],
   },
   {
     title: 'C++',
@@ -88,9 +88,14 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Data Visualization',
+    title: 'JUnit',
     competency: 1,
-    category: ['Data Science', 'Javascript'],
+    category: ['Testing', 'Java', 'BackEnd'],
+  },
+  {
+    title: 'MockMVC',
+    competency: 1,
+    category: ['Testing', 'Java', 'BackEnd'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 

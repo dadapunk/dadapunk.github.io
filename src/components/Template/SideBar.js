@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.png`} alt="" />
+        <img src={`${PUBLIC_URL}/images/profile.png`} alt="" />
       </Link>
       <header>
         <h2>Sebastián Velásquez</h2>
@@ -20,7 +20,8 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Sebastián. I like building things.
-        I am a chilean computer engineer living in Girona, Spain.
+        I am a chilean computer engineer living in Girona, Spain.<br></br>
+      <a href={`${PUBLIC_URL}/images/CV-ES-IT-Velasquez.pdf`}>Download my CV in Pdf.</a>
       </p>
       <ul className="actions">
         <li>

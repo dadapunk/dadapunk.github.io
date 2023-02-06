@@ -5,7 +5,7 @@ const positions = [
     link: '',
     daterange: 'Nov, 2020 -- Jan, 2021',
     points: [
-      'Web scraping to public job portals in Latin America.',
+      'Web scraping to public job portals in Latin America. (Python)',
     ],
   },
   {
@@ -14,9 +14,9 @@ const positions = [
     link: '',
     daterange: 'Jul, 2019 -- Jan, 2020',
     points: [
-      'IoT prototype with dashboard for vineyard (Esp32, SAPUI5).',
-      'Hybrid mobile application for Telecommunications company',
-      'Augmented Reality Prototype for Retail Company',
+      'IoT prototype development for vineyard (Esp32, SAPUI5).',
+      'Hybrid mobile application for Telecommunications company (SAPUI5)',
+      'Augmented Reality Prototype for food industry Company (Android ARCore)',
     ],
   },
   {
@@ -25,9 +25,9 @@ const positions = [
     link: 'https://karibu.cl/',
     daterange: 'May, 2016 -- Nov, 2017',
     points: [
-      'Java Microservices, developments in Java with Agile Methodology',
-      'Point of Sale desktop application in Java Swing',
-      'Flow changes and minor enhancements to native Android app.',
+      'Java JSP developments with Agile Methodology',
+      'Point of Sale desktop application (Java Swing)',
+      'Modifications to an mobile app (Android).',
     ],
   },
   {
@@ -36,8 +36,8 @@ const positions = [
     link: 'https://www.analyze.cl/',
     daterange: 'Jun, 2015 -- Feb, 2016',
     points: [
-      'Testing for agricultural software',
-      'Quality assurance for ERP software.',
+      'Testing for agricultural software (Python)',
+      'Quality assurance for ERP software (Python)',
     ],
   },
 ];
