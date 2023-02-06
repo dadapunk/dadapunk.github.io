@@ -48,17 +48,11 @@ Your web browser should automatically open to `<ip>:<port>:<path>` default: [htt
 
 ## Deploying
 
-### Deploying to Github Pages
+### Deploying to Github Pages (Added by dadadpunk)
 
-1. Modify the environmental variables and git remote url in [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml).
-2. Modify `homepage` in `package.json` to point to where you plan to host your site. If you do not plan on using a custom domain name, it should look like `https://[your-gh-username].github.io/[repository-name - default:personal-site]/`
-3. If you plan on using a custom domain, modify `public/CNAME`. If you don't, delete `public/CNAME`.
-
-Make a commit to `main` and push your changes. That's it.
-
-### Static Export
-
-To statically export the site without deploying to github pages, delete or disable `.github/workflows/github-pages.yml` and run `npm run predeploy`. This generates a static export of the website as `personal-site/build/`. Copy this and self-host or deploy to a CDN.
+1. Add the npm github pages dependency (npm install gh-pages) and modified you package.json like this:
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
 
 ## Acknowledgements
 
