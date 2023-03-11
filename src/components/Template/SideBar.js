@@ -21,7 +21,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>Hi, I&apos;m Sebastián. I like building things.
         I am a chilean computer engineer living in Girona, Spain.<br></br>
-      <a href={`${PUBLIC_URL}/images/CV-ES-IT-Velasquez.pdf`}>Download my CV in Pdf.</a>
+      <a href={`https://github.com/dadapunk/CV-Latex/blob/main/CV-IT-EN-Velasquez.pdf`}>Download my CV in Pdf.</a>
       </p>
       <ul className="actions">
         <li>
