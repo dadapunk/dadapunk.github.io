@@ -3,14 +3,7 @@ import PropTypes from 'prop-types';
 
 import Course from './Courses/Course';
 
-const getRows = (courses) => courses.sort((a, b) => {
-  let ret = 0;
-  if (a.university > b.university) ret = -1;
-  else if (a.university < b.university) ret = 1;
-  else if (a.number > b.number) ret = 1;
-  else if (a.number < b.number) ret = -1;
-  return ret;
-}).map((course, idx) => (
+const getRows = (courses) => courses.map((course, idx) => (
   <Course
     data={course}
     key={course.title}

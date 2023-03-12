@@ -35,6 +35,7 @@ const courses = [
     link: 'https://www.medialab-matadero.es/actividades/arte-e-internet-la-red-como-campo-de-investigacion-para-las-nuevas-practicas-artisticas',
     university: 'MaediaLab Prado, Uned',
   },
+  
 ];
 
 export default courses;
